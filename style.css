@@ -1,0 +1,158 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+header ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 113px;
+    padding: 0%;
+}
+header ul li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover {
+    color: grey;
+}
+.logo {
+    width: 58%;
+    display: flex;
+    justify-content: flex-end;
+}
+header div {
+    width: 60%;
+}
+/*section hissesi*/
+.bas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #292d33;
+    text-align: center;
+}
+.bas h1 {
+    color: white;
+    font-family: 'Merriweather', serif !important;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+.bas p {
+    color: white;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.bas p a {
+    color: #f0d754;
+}
+.bas2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.bas2 .photo1 {
+    background-image: url("image/3-min.jpg");
+    width: 33.33333333%;
+    height: 347px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bas2 div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 33.33333333%;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-top: 20%;
+    font-size: 35px;
+    margin-bottom: 0%;
+}
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: 5px;
+}
+ .photop {
+    display: flex;
+    text-align: center;
+    margin-top: 0%;
+    font-family: 'Open Sans', sans-serif;
+    width: 75%;
+} 
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+hr { 
+    border-top: 1px solid;
+    width: 103px;
+}
+.bas2 .photo2 {
+    background-image: url("image/2-min.jpg");
+    width: 33.33333333%;
+    height: 347px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bas3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.bas3 div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 33.33333333%;
+}
+.bas3 .photo3 {
+    background-image: url("image/1-min.jpg");
+    width: 33.33333333%;
+    height: 347px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+
+}
+footer p {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 28%;
+}
+footer p a {
+    color: #f0d754;;
+}
